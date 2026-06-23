@@ -81,9 +81,8 @@ campus_explorer/
 ├── data_structures/        — provided custom ADT implementations (ArrayList, BST,
 │                              hash table, heap, linked structures, etc.) — no built-in
 │                              list/dict/heapq used anywhere in this project
-├── clayton.txt              — campus graph + leaderboard data, Clayton campus
-├── malaysia.txt             — campus graph + leaderboard data, Malaysia campus
-└── campus.py                — provided campus/location/connection/leaderboard loader
+├── campuses                — campus graph (Clayton campus,Malaysia campus)
+└── leaderboard             — leaderboard data (Clayton campus,Malaysia campus)
 ```
 
 The `algorithms/` and `data_structures/` modules were supplied by the unit as the only permitted building blocks — no Python built-in `list`, `dict`, `set`, or `heapq` is used anywhere in the five files above; every container operation goes through one of these custom ADTs.
