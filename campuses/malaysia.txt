@@ -1,0 +1,35 @@
+[Locations]
+# name|building_id|type|floors|features|reward
+
+Campus Centre|MC|campus|2|food,shops,student_services|13
+Bookshop|BS|facility|1|books,retail,student_services|9
+Cafeteria Annex|CA|facility|1|food|8
+School of Business|BUS|academic|4|business,study,teaching|11
+Monash Sports Centre|MSC|facility|2|gym,sports,fitness|16
+Library|LIB|facility|3|library,study|15
+School of Arts and Social Sciences|SASS|academic|4|arts,social,teaching|19
+School of Information Technology|IT|academic|5|computing,labs,teaching|23
+Sunway Monash Residence|SMR|residential|10|accommodation,student_living|18
+Innovation Lab|IL|facility|2|labs,startup|22
+Engineering|ENG|academic|5|engineering,labs,design|12
+Jeffrey Cheah School of Medicine|JCSMHS|academic|6|medicine,health,clinical|14
+
+[Connections]
+# from|to|difficulty
+
+Campus Centre|Bookshop|1
+Campus Centre|Cafeteria Annex|1
+Campus Centre|School of Business|2
+Campus Centre|Monash Sports Centre|2
+Campus Centre|Library|2
+Campus Centre|School of Arts and Social Sciences|3
+Bookshop|Library|2
+Cafeteria Annex|Monash Sports Centre|1
+School of Business|School of Information Technology|2
+Library|School of Arts and Social Sciences|2
+Monash Sports Centre|Sunway Monash Residence|1
+Sunway Monash Residence|Jeffrey Cheah School of Medicine|2
+School of Arts and Social Sciences|School of Information Technology|3
+School of Information Technology|Innovation Lab|1
+Innovation Lab|Engineering|2
+Engineering|Jeffrey Cheah School of Medicine|2

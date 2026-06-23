@@ -1,0 +1,34 @@
+[Locations]
+# name|building_id|type|floors|features|reward
+
+Campus Centre|10|campus|2|food,shops,student_services|2
+Hargrave-Andrew Library|30|academic|6|library,study,scenic|10
+Law Building and Library|12|academic|5|library,law,study|15
+Learning and Teaching Building|92|academic|4|lecture_halls,teaching|17
+Menzies Building|11|academic|5|teaching,landmark|6
+Monash Club|50|facility|2|events,food,social|16
+New Horizons|82|academic|4|research,innovation|13
+Religious Centre|9|facility|2|quiet,reflection,community|12
+Robert Blackwood Hall|2|facility|3|performance,events,landmark|11
+Alan Finkel Building for Technology and Design|94|academic|4|engineering,design,technology|18
+
+[Connections]
+# from|to|difficulty
+
+Campus Centre|Hargrave-Andrew Library|1
+Campus Centre|Learning and Teaching Building|2
+Campus Centre|Menzies Building|1
+Hargrave-Andrew Library|Law Building and Library|2
+Hargrave-Andrew Library|Learning and Teaching Building|2
+Law Building and Library|Learning and Teaching Building|3
+Law Building and Library|Alan Finkel Building for Technology and Design|3
+Menzies Building|Learning and Teaching Building|2
+Menzies Building|Monash Club|1
+Learning and Teaching Building|Alan Finkel Building for Technology and Design|3
+Learning and Teaching Building|Religious Centre|2
+Learning and Teaching Building|Robert Blackwood Hall|2
+Alan Finkel Building for Technology and Design|Robert Blackwood Hall|4
+Monash Club|Religious Centre|1
+Religious Centre|New Horizons|1
+Religious Centre|Robert Blackwood Hall|1
+Robert Blackwood Hall|New Horizons|4
